@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$comment": "Reconstructed from the frozen Stage 2 P5 prompt and validate_stage2; not supplied to the API in the canonical run.",
+  "title": "Stage 2 P5 output",
+  "type": "object",
+  "required": ["country", "framework_version", "assessment_summary", "indicator_assessments"],
+  "properties": {
+    "country": {"type": "string"},
+    "framework_version": {"type": "string"},
+    "assessment_summary": {"type": "string"},
+    "indicator_assessments": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["indicator_code", "indicator_name", "phase_score", "matched_phase_requirement", "score_reasoning", "evidence_supporting_score", "contrary_or_limiting_evidence", "contrary_or_limiting_reasoning", "next_phase_gap", "assigned_phase_requirement_checks", "framework_ambiguity"],
+        "properties": {
+          "indicator_code": {"type": "string", "pattern": "^[ABC]\\.\\d+\\.\\d+[a-z]?$"},
+          "indicator_name": {"type": "string"},
+          "phase_score": {"type": "integer", "minimum": 1, "maximum": 5},
+          "matched_phase_requirement": {"type": "string"},
+          "score_reasoning": {"type": "string"},
+          "evidence_supporting_score": {"type": "array", "items": {"type": "string"}},
+          "contrary_or_limiting_evidence": {"type": "array", "items": {"type": "string"}},
+          "contrary_or_limiting_reasoning": {"type": "string"},
+          "next_phase_gap": {"type": "string"},
+          "assigned_phase_requirement_checks": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["requirement", "status", "evidence_ids", "explanation"],
+              "properties": {
+                "requirement": {"type": "string"},
+                "status": {"enum": ["SUPPORTED", "NOT_DEMONSTRATED"]},
+                "evidence_ids": {"type": "array", "items": {"type": "string"}},
+                "explanation": {"type": "string"}
+              },
+              "additionalProperties": false
+            }
+          },
+          "framework_ambiguity": {"type": "string"}
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}
+

@@ -1,0 +1,24 @@
+Return one JSON object only:
+{
+  "country": "country name",
+  "framework_version": "current DEMA maturity framework supplied in this prompt",
+  "assessment_summary": "substantive summary of the in-scope assessment",
+  "indicator_assessments": [
+    {
+      "indicator_code": "A.1.1",
+      "indicator_name": "exact framework name",
+      "phase_score": 1,
+      "matched_phase_requirement": "the specific framework criterion fully supported",
+      "score_reasoning": "180-350 word evidence-by-evidence justification with inline evidence IDs, lower-phase comparison, and higher-phase boundary",
+      "evidence_supporting_score": ["evidence_id"],
+      "contrary_or_limiting_evidence": ["evidence_id"],
+      "contrary_or_limiting_reasoning": "what the contrary evidence or evidentiary limits mean for the score",
+      "next_phase_gap": "specific proof or implementation required for the next phase",
+      "assigned_phase_requirement_checks": [
+        {"requirement": "atomic assigned-phase requirement", "status": "SUPPORTED", "evidence_ids": ["evidence_id"], "explanation": "why this requirement is supported"}
+      ],
+      "framework_ambiguity": "identical adjacent phase wording, or empty string"
+    }
+  ]
+}
+

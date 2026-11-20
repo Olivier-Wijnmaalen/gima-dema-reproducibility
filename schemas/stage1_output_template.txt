@@ -1,0 +1,22 @@
+OUTPUT SCHEMA
+Return one valid JSON object and no Markdown or commentary:
+
+{
+  "source_id": "<stable unique identifier for the documentary source>",
+  "source_file": "<filename from INPUT_TEXT metadata, otherwise empty string>",
+  "source_url": "<source URL from INPUT_TEXT metadata, otherwise empty string>",
+  "processing_unit_id": "<unique identifier for the chunk or processing unit supplied in this request>",
+  "dema_evidence_rows": [
+    {
+      "evidence_id": "<globally unique evidence identifier>",
+      "subdimension": "A.1 Roles | A.2 Capacity | B.1 Data supply (quality and production) | B.2 Data infrastructure (enablers) | B.3 Data demand (use) | C.1 Governance, ethics & trust | C.2 Policies, standards & resources | C.3 Collaboration & inclusion",
+      "evidence_scope": "National | Subnational/local | Organisation/project | Regional/multi-country | Not established",
+      "country_specificity": "Direct | Indirect/contextual | Not established",
+      "supporting_quote": "<exact contiguous substring of INPUT_TEXT>",
+      "evidence_statement": "<one concise documentary proposition containing only what the supporting quotation establishes>",
+      "interpretation_boundary": "<what the quotation does not establish, what remains uncertain, and what must not be inferred>",
+      "page_number": "<single page number, or a two-page consecutive range only when the exact quotation genuinely crosses a page boundary; empty string for an unpaginated webpage>"
+    }
+  ]
+}
+

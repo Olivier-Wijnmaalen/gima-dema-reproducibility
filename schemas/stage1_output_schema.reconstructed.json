@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$comment": "Reconstructed from the frozen Stage 1 V6 prompt and validate_stage1; not supplied to the API in the canonical run.",
+  "title": "Stage 1 V6 output",
+  "type": "object",
+  "required": ["source_id", "source_file", "source_url", "processing_unit_id", "dema_evidence_rows"],
+  "properties": {
+    "source_id": {"type": "string"},
+    "source_file": {"type": "string"},
+    "source_url": {"type": "string"},
+    "processing_unit_id": {"type": "string"},
+    "dema_evidence_rows": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["evidence_id", "subdimension", "evidence_scope", "country_specificity", "supporting_quote", "evidence_statement", "interpretation_boundary", "page_number"],
+        "properties": {
+          "evidence_id": {"type": "string", "minLength": 1},
+          "subdimension": {
+            "enum": ["A.1 Roles", "A.2 Capacity", "B.1 Data supply (quality and production)", "B.2 Data infrastructure (enablers)", "B.3 Data demand (use)", "C.1 Governance, ethics & trust", "C.2 Policies, standards & resources", "C.3 Collaboration & inclusion"]
+          },
+          "evidence_scope": {"enum": ["National", "Subnational/local", "Organisation/project", "Regional/multi-country", "Not established"]},
+          "country_specificity": {"enum": ["Direct", "Indirect/contextual", "Not established"]},
+          "supporting_quote": {"type": "string", "minLength": 1},
+          "evidence_statement": {"type": "string"},
+          "interpretation_boundary": {"type": "string"},
+          "page_number": {"type": "string"}
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}
+

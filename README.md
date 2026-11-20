@@ -31,6 +31,8 @@ The two final prompt checksums correspond with the recorded canonical workflow. 
 - [`docs/DATA_AVAILABILITY.md`](docs/DATA_AVAILABILITY.md) describes materials intentionally excluded from this public repository.
 - [`expert_review/`](expert_review/) records the eight indicator-specific review
   pages and the nine-item expert-review instrument.
+- [`data/SOURCE_LIST.csv`](data/SOURCE_LIST.csv) lists all 22 documentary sources,
+  their development/held-out assignment, processing-unit counts and source URLs.
 - [`outputs/`](outputs/) contains the unchanged complete 622-record evidence
   bank and validated 31-indicator Stage 2 output.
 

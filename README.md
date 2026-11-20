@@ -29,6 +29,8 @@ The two final prompt checksums correspond with the recorded canonical workflow. 
 - [`docs/ENVIRONMENT.md`](docs/ENVIRONMENT.md) records the best-supported historical software and model configuration.
 - [`docs/REPRODUCIBILITY_LIMITATIONS.md`](docs/REPRODUCIBILITY_LIMITATIONS.md) explains what this archive can and cannot reproduce.
 - [`docs/DATA_AVAILABILITY.md`](docs/DATA_AVAILABILITY.md) describes materials intentionally excluded from this public repository.
+- [`expert_review/`](expert_review/) records the eight indicator-specific review
+  pages and the nine-item expert-review instrument.
 
 ## Recorded configuration
 

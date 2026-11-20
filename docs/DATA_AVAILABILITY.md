@@ -1,8 +1,8 @@
 # Data availability
 
-This repository intentionally contains prompt and method documentation only. The complete research archive is retained for authorized review but is not included publicly because it contains archived third-party documents, exact source quotations, model-generated country-assessment material and expert or stakeholder evaluation artefacts.
+This repository contains prompt and method documentation, the unchanged complete evidence bank and the validated final Stage 2 output. The original source-document archive and expert or stakeholder evaluation artefacts remain outside the public repository.
 
 Access, retention and onward sharing of those materials remain subject to the applicable copyright, data-protection, Red Cross information-management and research-governance requirements. Requests for access should be handled through the report author and relevant institutional supervisor rather than through a public issue containing research data.
 
-No credentials or confidential source materials are required to inspect the prompt files published here.
+The evidence bank reproduces quotations from the openly accessible documentary sources used in the study. Two quotations include names and contact details contained in public source tables. No API credentials or confidential source files are included.
 

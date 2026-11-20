@@ -1,6 +1,6 @@
 # Publication review required
 
-The files have been screened for common credential patterns, personal contact information, documentary source quotations and confidential Red Cross or Togo assessment content. None was identified in the selected publication package.
+The files have been screened for common credential patterns, machine-local paths and confidential Red Cross material; none was identified. The unchanged evidence bank does contain documentary source quotations and country-assessment content. Two public-source contact tables include names, professional roles, telephone numbers and email addresses. These are intentionally retained to preserve the canonical output and should be reviewed once more before publication.
 
 However, all four prompts embed DEMA framework definitions or maturity descriptions. The local research archive does not establish a licence allowing the author to grant public reuse rights over that framework wording.
 

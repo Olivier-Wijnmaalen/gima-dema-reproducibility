@@ -31,6 +31,8 @@ The two final prompt checksums correspond with the recorded canonical workflow. 
 - [`docs/DATA_AVAILABILITY.md`](docs/DATA_AVAILABILITY.md) describes materials intentionally excluded from this public repository.
 - [`expert_review/`](expert_review/) records the eight indicator-specific review
   pages and the nine-item expert-review instrument.
+- [`outputs/`](outputs/) contains the unchanged complete 622-record evidence
+  bank and validated 31-indicator Stage 2 output.
 
 ## Recorded configuration
 
@@ -43,9 +45,9 @@ The two final prompt checksums correspond with the recorded canonical workflow. 
 
 ## Reproducibility boundary
 
-This repository supports inspection of prompt design, prompt evolution and output structure. It does not enable exact end-to-end regeneration by itself: the source corpus, research outputs, credentials and country-assessment material are excluded. Hosted model behaviour can also change, so a later execution would be a new run rather than a byte-for-byte reproduction of the recorded outputs.
+This repository supports inspection of prompt design, prompt evolution, output structure and the recorded final outputs. It does not enable exact end-to-end regeneration by itself: the source-document corpus, credentials and full pipeline implementation are excluded. Hosted model behaviour can also change, so a later execution would be a new run rather than a byte-for-byte reproduction of the recorded outputs.
 
-No API credentials, personal records, source documents, model outputs or confidential Red Cross assessment material are included.
+No API credentials, source-document files, expert identities or confidential Red Cross records are included. The evidence bank does retain contact details reproduced in two quotations from openly accessible source documents; this is documented with the outputs.
 
 ## Rights and reuse
 

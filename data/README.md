@@ -1,5 +1,13 @@
 # Documentary corpus and split
 
+## DEMA assessment workbook
+
+[`DEMA_Data_Collection_2026_ENG.xlsx`](DEMA_Data_Collection_2026_ENG.xlsx) is the English DEMA data-collection workbook used as the framework reference for the study. It contains the maturity matrix, definitions, empty data-collection form, action-plan matrix and supporting hidden framework sheets. It is published as an uncompleted template; it does not contain a country assessment, participant responses or expert-review data.
+
+The workbook retains its formulas, formatting and hidden supporting sheets. Legacy Excel notes and threaded comments were removed before publication. Permission to redistribute this workbook in the repository was confirmed by the repository owner on 22 November 2026. No broader licence or permission for modification is implied.
+
+## Source register
+
 [`SOURCE_LIST.csv`](SOURCE_LIST.csv) is the authoritative source register for the documentary corpus described in Chapter 5 of the report. It records the stable source ID, development/held-out assignment, source title, publisher or owner, source type, number of processing units and original URL.
 
 | Subset | Sources | Processing units | Role in the workflow |

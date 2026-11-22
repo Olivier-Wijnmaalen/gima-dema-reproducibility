@@ -33,6 +33,8 @@ The two final prompt checksums correspond with the recorded canonical workflow. 
   pages and the nine-item expert-review instrument.
 - [`data/SOURCE_LIST.csv`](data/SOURCE_LIST.csv) lists all 22 documentary sources,
   their development/held-out assignment, processing-unit counts and source URLs.
+- [`data/DEMA_Data_Collection_2026_ENG.xlsx`](data/DEMA_Data_Collection_2026_ENG.xlsx)
+  provides the English DEMA assessment workbook used as the framework reference.
 - [`outputs/`](outputs/) contains the unchanged complete 622-record evidence
   bank and validated 31-indicator Stage 2 output.
 

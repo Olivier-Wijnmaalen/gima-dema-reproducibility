@@ -14,3 +14,7 @@ Before publishing or adding an open-source licence:
 
 No `LICENSE` file is included intentionally. Adding a standard open-source licence without permission could grant rights the repository owner does not hold.
 
+## Workbook publication decision
+
+On 22 November 2026, the repository owner confirmed that permission had been checked and that `data/DEMA_Data_Collection_2026_ENG.xlsx` may be published in this repository. The workbook was checked before publication: legacy notes and threaded comments were absent, no email addresses or credentials were detected, and the file contains an uncompleted framework template rather than country-assessment responses. This decision applies to redistribution of that workbook and does not establish a general open-source licence for DEMA material.
+

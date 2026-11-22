@@ -18,3 +18,5 @@ No `LICENSE` file is included intentionally. Adding a standard open-source licen
 
 On 22 November 2026, the repository owner confirmed that permission had been checked and that `data/DEMA_Data_Collection_2026_ENG.xlsx` may be published in this repository. The workbook was checked before publication: legacy notes and threaded comments were absent, no email addresses or credentials were detected, and the file contains an uncompleted framework template rather than country-assessment responses. This decision applies to redistribution of that workbook and does not establish a general open-source licence for DEMA material.
 
+On 22 November 2026, the repository owner also confirmed permission to publish an English derivative translation of the January 2026 Togo DRR/EWS data and DEMA workshop report. The translation is labelled unofficial, attributes the original author and states that the French original remains authoritative. This permission record applies to `docs/reports/Togo_DRR_EWS_Data_Workshop_Report_English_Translation.pdf`; it does not establish a general licence for other 510, Red Cross or DEMA material.
+

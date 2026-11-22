@@ -29,6 +29,8 @@ The two final prompt checksums correspond with the recorded canonical workflow. 
 - [`docs/ENVIRONMENT.md`](docs/ENVIRONMENT.md) records the best-supported historical software and model configuration.
 - [`docs/REPRODUCIBILITY_LIMITATIONS.md`](docs/REPRODUCIBILITY_LIMITATIONS.md) explains what this archive can and cannot reproduce.
 - [`docs/DATA_AVAILABILITY.md`](docs/DATA_AVAILABILITY.md) describes materials intentionally excluded from this public repository.
+- [`docs/reports/Togo_DRR_EWS_Data_Workshop_Report_English_Translation.pdf`](docs/reports/Togo_DRR_EWS_Data_Workshop_Report_English_Translation.pdf)
+  provides an unofficial English translation of the January 2026 Togo DRR/EWS data and DEMA workshop report.
 - [`expert_review/`](expert_review/) records the eight indicator-specific review
   pages and the nine-item expert-review instrument.
 - [`data/SOURCE_LIST.csv`](data/SOURCE_LIST.csv) lists all 22 documentary sources,

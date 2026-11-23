@@ -36,7 +36,9 @@ The two final prompt checksums correspond with the recorded canonical workflow. 
 - [`data/SOURCE_LIST.csv`](data/SOURCE_LIST.csv) lists all 22 documentary sources,
   their development/held-out assignment, processing-unit counts and source URLs.
 - [`data/DEMA_Data_Collection_2026_ENG.xlsx`](data/DEMA_Data_Collection_2026_ENG.xlsx)
-  provides the English DEMA assessment workbook used as the framework reference.
+  provides the **DEMA Data Maturity Matrix Version 3** English workbook dated
+  28 August 2026, which was used as the framework reference for the 31-indicator
+  assessment.
 - [`outputs/`](outputs/) contains the unchanged complete 622-record evidence
   bank and validated 31-indicator Stage 2 output.
 

@@ -21,6 +21,11 @@ They are retained because this repository publishes the exact canonical output.
 validated final Stage 2 output. It contains provisional assessments for all 31
 DEMA indicators and no recorded validation warnings.
 
+The output's historical `framework_version` value, "current DEMA maturity
+framework supplied in frozen Stage 2 P5", refers to the **DEMA Data Maturity
+Matrix Version 3** English workbook dated 28 August 2026. The JSON is preserved
+unchanged so that its recorded checksum remains valid.
+
 SHA-256:
 `ce115446a7d3030f4be5be3f50769bf13408b72a83f169eb38d6023673069499`.
 
